@@ -19,10 +19,6 @@ Set-ItemProperty -Path HKCU:\Software\Policies\Microsoft\Edge -Name DiagnosticDa
 ```powershell
 Set-ItemProperty -Path HKCU:\Software\Policies\Microsoft\Edge -Name EdgeShoppingAssistantEnabled -Value 0
 ```
-- Disable personalization of ads.
-```powershell
-Set-ItemProperty -Path HKCU:\Software\Policies\Microsoft\Edge -Name PersonalizationReportingEnabled -Value 0
-```
 - Disable Microsoft Rewards experience in their Microsoft Edge user profile.
 ```powershell
 Set-ItemProperty -Path HKCU:\Software\Policies\Microsoft\Edge -Name ShowMicrosoftRewards -Value 0
